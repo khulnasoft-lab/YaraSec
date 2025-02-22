@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "Khulnasoft",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.YaraSec Documentation": {
+    "message": "YaraSec Documentation",
+    "description": "Navbar item with label YaraSec Documentation"
+  },
+  "item.label.khulnasoft.com": {
+    "message": "khulnasoft.com",
+    "description": "Navbar item with label khulnasoft.com"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

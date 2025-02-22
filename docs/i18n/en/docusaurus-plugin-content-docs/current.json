@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.yarasec.category.Using YaraSec": {
+    "message": "Using YaraSec",
+    "description": "The label for category Using YaraSec in sidebar yarasec"
+  },
+  "sidebar.yarasec.category.Configuration": {
+    "message": "Configuration",
+    "description": "The label for category Configuration in sidebar yarasec"
+  }
+}
