@@ -28,8 +28,13 @@ report = sys.argv[2]
 args = shlex.split(f"go tool cover -func {report}")
 p = subprocess.run(args, capture_output=True, text=True)
 
+lines = p.stdout.splitlines()
+if not lines:
+    print(f"{bcolors.FAIL}No coverage report output found.{bcolors.ENDC}")
+    sys.exit(1)
+
 percent_coverage = float(
-    p.stdout.splitlines()[-1].split()[-1].replace("%", "")
+    lines[-1].split()[-1].replace("%", "")
 )
 print(
     f"{bcolors.BOLD}Coverage: {percent_coverage}%{bcolors.ENDC}"
