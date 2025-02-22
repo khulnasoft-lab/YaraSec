@@ -8,7 +8,7 @@ require (
 	github.com/VirusTotal/gyp v0.9.0
 	github.com/gabriel-vasile/mimetype v1.4.6
 	github.com/hillu/go-yara/v4 v4.3.3
-	github.com/khulnasoft-lab/agent-plugins-grpc v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft-lab/agent-plugins-grpc e7e03aab7da6
 	github.com/khulnasoft-lab/golang_sdk/client v0.0.0-20250125193251-84ea98b34f61
 	github.com/khulnasoft-lab/golang_sdk/utils v0.0.0-20250125193251-84ea98b34f61
 	github.com/khulnasoft-lab/syncscan v0.0.0-20250211034207-4d349aa862b4
