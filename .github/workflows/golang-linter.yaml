@@ -43,7 +43,7 @@ jobs:
           tar -czf yara.tar.gz yara
           echo "PKG_CONFIG_PATH=$HOME/.local/yara/lib/pkgconfig" >> "$GITHUB_ENV"
 
-      - uses: actions/setup-go@v4
+      - uses: actions/setup-go@v5
         with:
           go-version: '1.21'
           cache: false
